@@ -46,41 +46,42 @@
 
   .h1:visited, .h2:visited, .h3:visited{
     color: var(--main_col1);
-    text-decoration:none;
+    text-decoration: none;
   }
 
 
   .h1:hover, .h2:hover, .h3:hover{
     color: var(--accent_col1);
-    text-decoration:none;
+    cursor: default;
+    text-decoration: none;
 
   }
 
   .h1:active, .h2:active, .h3:active{
     color: var(--accent_col1);
-    text-decoration:none;
+    text-decoration: none;
   }
 
 
   .container{
     display: flex;
-    width:90%;
-    padding-left:5%;
-    text-align:center;
+    width: 90%;
+    padding-left: 5%;
+    text-align: center;
 
   }
 
   .container.space{
     justify-content: space-evenly;
-    flex-direction:row;
+    flex-direction: row;
   }
 
   .container.stick{
     background-color:white;
     justify-content: space-evenly;
-    flex-direction:row;
+    flex-direction: row;
     position: -webkit-sticky;
-    position:sticky;
+    position: sticky;
     top:0;
 
   }
@@ -91,17 +92,17 @@
     font-weight: 300;
     font-family: var(--main_type);
     font-size: 10pt;
-    text-align:center;
+    text-align: center;
   }
 
   .imgwrap{
-    position:relative;
-    display:block;
-    height:auto;
+    position: relative;
+    display: block;
+    height: auto;
   }
 
   #imgtab img{
-    width:100%;
+    width: 100%;
 
   }
 
@@ -110,7 +111,7 @@
   }
   .img_wrap:hover .img_desc{
     visibility: visible;
-    opacity:1;
+    opacity: 1;
   }
 
   .img_desc{
@@ -119,19 +120,19 @@
     text-align: center;
     font-weight: var(--default_font_weight);
     color: white;
-    padding-left:50px;
-    position:absolute;
-    visibility:hidden;
-    opacity:0;
+    padding-left: 50px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
     transition: opacity .2s, visibility .2s;
 
   }
 
   .secretimg{
-    display:none;
-    width:20%;
-    height:auto;
-    position:fixed;
+    display: none;
+    width: 20%;
+    height: auto;
+    position: fixed;
     pointer-events: none;
   }
 
@@ -147,19 +148,19 @@
       text-align: center;
       font-weight: var(--default_font_weight);
       color: white;
-      padding-left:50px;
-      position:absolute;
-      visibility:hidden;
-      opacity:0;
+      padding-left: 50px;
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
       transition: opacity .2s, visibility .2s;
 
     }
 
     .container.stick{
       justify-content: space-evenly;
-      flex-direction:column;
+      flex-direction: column;
       position: -webkit-sticky;
-      position:sticky;
+      position: sticky;
       top:0;
 
     }
@@ -167,8 +168,8 @@
     .h1{
       font-weight: var(--default_font_weight);
       color: var(--main_col2);
-      font-family: var(--main_type), sans-serif;
-      font-size:40pt;
+      font-family: var(--main_type);
+      font-size: 40pt;
       text-align: center;
       padding: 5px 5px 5px 5px;
     }
