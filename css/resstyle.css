@@ -6,6 +6,7 @@
   font-family: var(--main_type);
   font-size: 14pt;
   text-align:left;
+  padding-bottom: 2%;
 }
 
 .res_header{
