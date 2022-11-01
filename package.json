@@ -22,5 +22,9 @@
   "homepage": "https://github.com/li-mc/li-mc.github.io#readme",
   "devDependencies": {
     "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "jinja2": "^0.0.1",
+    "react": "^18.2.0"
   }
 }
