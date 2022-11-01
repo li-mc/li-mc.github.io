@@ -1,18 +1,19 @@
-
+/* Resume style document */
 .res_table{
   width:90%;
   padding-left:10%;
-  font-weight:100;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 10pt;
+  font-weight: var(--default_font_weight);
+  font-family: var(--main_type);
+  font-size: 14pt;
   text-align:left;
+  padding-bottom: 2%;
 }
 
 .res_header{
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--main_type);
   padding-left:10%;
   padding-top:2%;
-  font-weight:200;
+  font-weight: var(--default_font_weight);
   font-size:22pt;
 }
 
