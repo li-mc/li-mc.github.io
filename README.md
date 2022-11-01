@@ -6,7 +6,6 @@ Visit [here](https://li-mc.github.io/)
 * Resizes based on window/mobile.
 * Position-locked navigation bar.
 * Resume.
-* Photography.
 * LinkedIn.
 * A cat picture generator.
 
