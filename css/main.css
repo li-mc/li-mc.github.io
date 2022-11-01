@@ -52,7 +52,6 @@
 
   .h1:hover, .h2:hover, .h3:hover{
     color: var(--accent_col1);
-    cursor:crosshair;
     text-decoration:none;
 
   }
