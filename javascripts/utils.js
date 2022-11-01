@@ -1,3 +1,4 @@
+/* Little extra for a randomized cat image  */
 $(document).ready(function(){
 
   function randImg(){
@@ -19,8 +20,10 @@ $(document).ready(function(){
 
   });
 
+
+  /* Allowing for hover highlight on resume table */
   $(".res_table > tbody > tr > td").hover(function(){
-    $(this).css("background","var(--pink2)");
+    $(this).css("background","var(--sub_col1)");
   },
 
 function(){
