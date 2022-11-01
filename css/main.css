@@ -1,62 +1,64 @@
-:root{--blue1: rgb(50 120 200);
-      --blue2: rgb(50 82 127);
-      --pink1: rgb(206 34 109);
-      --pink2: rgb(255 215 200);
-      --main-type: 'Nunito+Sans'
+:root{
+      --main_col1: #114B5F;
+      --main_col2: #456990;
+      --sub_col1: #E4FDE1;
+      --accent_col1: #F45B69;
+      --accent_col2: #6B2737;
+      --main_type: 'Nunito Sans', 'sans-serif';
+      --default_font_weight: 300;
   }
 
   .bodytxt{
-    font-weight:100;
-    font-family: var(--main-type), sans-serif;
+    font-weight: var(--default_font_weight);
+    font-family: var(--main_type);
     font-size: 10pt;
   }
 
   .h1{
-    font-weight:100;
-    color: var(--blue2);
-    font-family: var(--main-type), sans-serif;
+    font-weight: var(--default_font_weight);
+    color: var(--main_col1);
+    font-family: var(--main_type);
     font-size: 34pt;
     text-align: center;
     padding: 20px 20px 20px 20px;
   }
 
   .h2{
-    font-family: var(--main-type), sans-serif;
-    font-size: 14pt;
+    font-family: var(--main_type);
     text-align: center;
-    font-weight:100;
-    color: var(--blue1);
+    font-weight: var(--default_font_weight);
+    color: var(--main_col1);
   }
 
   .h3{
-    font-family: var(--main-type), sans-serif;
+    font-family: var(--main_type);
     font-size: 36pt;
     text-align: center;
-    font-weight:400;
-    color: var(--blue1);
+    font-weight: var(--default_font_weight);
+    color: var(--main_col2);
     padding: 5px 5px 5px 5px;
   }
 
   .h1:link, .h2:link, .h3:link{
-    color: var(--blue1);
+    color: var(--main_col1);
     text-decoration:none;
   }
 
   .h1:visited, .h2:visited, .h3:visited{
-    color: var(--blue1);
+    color: var(--main_col1);
     text-decoration:none;
   }
 
 
   .h1:hover, .h2:hover, .h3:hover{
-    color: var(--pink2);
+    color: var(--accent_col1);
     cursor:crosshair;
     text-decoration:none;
 
   }
 
   .h1:active, .h2:active, .h3:active{
-    color: var(--pink1);
+    color: var(--accent_col1);
     text-decoration:none;
   }
 
@@ -87,8 +89,8 @@
   #imgtab{
     width:90%;
     padding-left:10%;
-    font-weight:100;
-    font-family: var(--main-type), sans-serif;
+    font-weight: 300;
+    font-family: var(--main_type);
     font-size: 10pt;
     text-align:center;
   }
@@ -108,15 +110,15 @@
 
   }
   .img_wrap:hover .img_desc{
-    visibility:visible;
+    visibility: visible;
     opacity:1;
   }
 
   .img_desc{
-    font-family: var(--main-type), sans-serif;
+    font-family: var(--main_type);
     font-size: 14pt;
     text-align: center;
-    font-weight:100;
+    font-weight: var(--default_font_weight);
     color: white;
     padding-left:50px;
     position:absolute;
@@ -125,8 +127,6 @@
     transition: opacity .2s, visibility .2s;
 
   }
-
-
 
   .secretimg{
     display:none;
@@ -143,10 +143,10 @@
     }
 
     .img_desc{
-      font-family: var(--main-type), sans-serif;
+      font-family: var(--main_type), sans-serif;
       font-size: 8pt;
       text-align: center;
-      font-weight:100;
+      font-weight: var(--default_font_weight);
       color: white;
       padding-left:50px;
       position:absolute;
@@ -157,7 +157,6 @@
     }
 
     .container.stick{
-      background-color:white;
       justify-content: space-evenly;
       flex-direction:column;
       position: -webkit-sticky;
@@ -167,33 +166,28 @@
     }
 
     .h1{
-      font-weight:100;
-      color: var(--blue2);
-      font-family: var(--main-type), sans-serif;
+      font-weight: var(--default_font_weight);
+      color: var(--main_col2);
+      font-family: var(--main_type), sans-serif;
       font-size:40pt;
       text-align: center;
       padding: 5px 5px 5px 5px;
     }
 
     .h2{
-      font-family: var(--main-type), sans-serif;
+      font-family: var(--main_type), sans-serif;
       font-size: 14pt;
       text-align: center;
-      font-weight:100;
-      color: var(--blue1);
+      font-weight: var(--default_font_weight);
+      color: var(--main-col1);
     }
 
     .h3{
-      font-family: var(--main-type), sans-serif;
+      font-family: var(--main_type), sans-serif;
       font-size: 60pt;
       text-align: center;
-      font-weight:400;
-      color: var(--blue1);
+      font-weight: var(--default_font_weight);
+      color: var(--main_col1);
       padding: 5px 5px 5px 5px;
     }
-
-
-
-
-
   }
